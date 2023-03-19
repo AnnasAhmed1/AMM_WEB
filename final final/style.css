@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: latobold;
+}
+
+.navbar>img {
+    padding: 0 10px;
+    width: 170px;
+}
+
+.navButtons>a>button {
+    border: 0;
+    background-color: transparent;
+    color: rgb(18, 105, 210);
+    padding: 0 40px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.navToggleDiv>a>button {
+    border: 0;
+    background-color: transparent;
+    color: rgb(18, 105, 210);
+    padding: 0 40px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.navButtons>i {
+    display: none;
+}
+
+.navToggler {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navButtons>a>button {
+        padding: 0 20px;
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navButtons>a>button {
+        padding: 0 10px;
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navButtons>a>button {
+        display: none;
+    }
+
+    .navToggler {
+        display: inline-block;
+    }
+
+}
+
+.homeButton {
+    color: rgb(59, 5, 255) !important;
+    text-decoration: underline;
+
+}
+
+main>.coverContiner {
+    background-image: url(./images/homeCover3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.leftArrow {
+    margin: 0 80% 0 0;
+    padding: 10px;
+    font-size: 80px !important;
+    color: lightgray;
+    opacity: 0.3;
+}
+
+.rightArrow {
+    /* padding: 5px ; */
+    font-size: 80px !important;
+    color: lightgray;
+    opacity: 0.3;
+}
+
+.coverContiner>.coverHead {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+.coverContiner>.coverText {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 680px) {
+    .coverContiner>.coverHead {
+        font-size: 1.5em;
+
+    }
+
+    .coverContiner>.coverText {
+        font-size: 1em;
+
+    }
+}
+
+.coverContiner>.coverButton {
+    color: white;
+    border: 0ch;
+    background-color: rgba(15, 35, 252);
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 2em;
+    padding: 5px;
+    margin: 00px auto;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width: 770px) {
+    .products {
+        flex-direction: column;
+        /* padding: 0% !important; */
+        /* margin: 0% !important; */
+        /* justify-content: space-evenly !important; */
+
+
+    }
+
+    .products>.card {
+        margin-top: 20px;
+        /* padding: 0% !important; */
+    }
+    #imageID{
+        width: 150px;
+    }
+}
+
+/* } */
+
+/* .products>.card>img { */
+/* width: 350px !important; */
+/* margin: 0 !important; */
+/* padding: 0% !important; */
+/* } */
+*/
+/* } */
+*/
+/* @media only screen and (max-width: 700px) {
+    .products {
+        flex-direction: column;
+
+    }
+
+    .products>.card {
+        margin-top: 20px;
+    }
+} */
+
+
+
+.changeColor {
+    background-color: #F8F8F8;
+}
+
+.changeColor>h1 {
+    color: #EBEDEC;
+    font-family: latoregular;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    padding-top: 0 !important;
+}
+
+
+.aboutUsContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUsContent>div>p {
+    font-family: Muli, sans-serif;
+    font-size: 1.1em;
+    padding-right: 20%;
+}
+
+@media only screen and (max-width: 770px) {
+    .aboutUsContent {
+        flex-direction: column;
+    }
+}
+
+footer {
+    background-color: #F2F2F2;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.footerItems1 {
+    padding: 0 50px;
+}
+
+.footerItems2 {
+    padding: 0 50px;
+
+}
+
+@media only screen and (max-width: 670px) {
+    .footerMedia {
+        flex-direction: column
+    }
+
+    .footerItems1 {
+        padding: 0 0px;
+    }
+
+    .footerItems2 {
+        padding: 0 0px;
+
+    }
+
+    .footerItems1>div {
+        padding-top: 10px;
+    }
+
+    .footerItems2>div {
+        padding-top: 10px;
+
+    }
+}
+
+.footerTaglin {
+    background-color: #2184b9 !important;
+    padding: 20px;
+    color: white;
+    font-size: 1.3em;
+}
+
+.footerTaglin>small {
+    display: inline-block;
+    margin-left: 38%;
+    background-color: rgba(181, 219, 232, 0.3);
+    padding: 0 4px;
+}
+
+/* about us */
+
+main>.aboutUsCoverContainer {
+    background-image: url(./images/aboutUsCover.jpg);
+    background-blend-mode: color-burn;
+    width: 100%;
+    height: 100vh;
+}
+
+.aboutUsCoverContainer>.aboutUsCoverHead {
+    color: white;
+    font-size: 4em;
+    padding-top: 10%;
+}
+
+.containerOpacity {
+    background-color: rgba(128, 122, 122, 0.6);
+}
+
+
+.underline {
+    background-color: #2184b9;
+    height: 5px;
+}
+
+.underline1 {
+    background-color: #2184b9;
+    height: 3px;
+}
+
+.aboutUsImage {
+    margin-top: 100px;
+}
+
+/* contact us */
+main>.contactUsCoverContiner {
+    background-image: url(./images/contactUsCover.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.contactUsCoverContiner>.contactUsCoverHead {
+    color: white;
+    font-size: 4em;
+    padding-top: 10%;
+}
+
+
+.contactIcons>div {
+    padding-bottom: 15px;
+}
+
+.contactUsContent {
+    padding-right: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 0%;
+}
+
+.contactPara {
+    font-size: 1.1em;
+}
+
+.messageBox {
+    height: 120px;
+}
+
+
+/* contact us */
+main>.feedbackCoverContiner {
+    background-image: url(./images/feedbackCover.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.feedbackCoverContiner>.feedbackCoverHead {
+    color: white;
+    font-size: 4em;
+    padding-top: 10%;
+}
+
+.feedbackForm {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 70%;
+    margin: 0 auto;
+}
+
+.buttonSend {
+    margin-left: 93.5%;
+}
